@@ -7,43 +7,47 @@
     <link rel="stylesheet" href="Stylesheet2.css" />
 </head>
     <body>
-        <div class="topdiv">
-            <a href="index.html">Google</a>
-        </div>
-        <div class="maindiv">
-            Advanced Search
-            <div class="div">
-                <div class="inst1"> Find pages with... </div>
-                <div class="inst1"> To do this in the search box </div>
+        <form action="https://www.google.com/search" method="GET">
+            <div class="topdiv">
+                <a href="index.html">Google</a>
             </div>
-            <div class="div">
-                <div class="discription">all these words:</div>
-                <div class="textbox">textbox</div>
-                <div class="example">Type the important words:  tricolor rat terrier</div>
-            </div>
-            <div class="div">
-                <div class="discription">this exact word or phrase:</div>
-                <div class="textbox">textbox</div>
-                <div class="example">Put exact words in quotes:  "rat terrier"</div>
-                
-            </div>
-            <div class="div">
-                <div class="discription">any of these words:</div>
-                <div class="textbox">textbox</div>
-                <div class="example">Type OR between all the words you want:  miniature OR standard</div>
-                
-            </div>
-            <div class="div">
-                <div class="discription">none of these words:</div>
-                <div class="textbox">textbox</div>
-                <div class="example">
-                    Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"
+            <div class="maindiv">
+                Advanced Search
+                <div class="div">
+                    <div class="inst1"> Find pages with... </div>
+                    <div class="inst1"> To do this in the search box </div>
+                </div>
+                <div class="div">
+                    <div class="discription">all these words:</div>
+                    <div class="textbox"><input type="text" name="as_q"/></div>
+                    <div class="example">Type the important words:  tricolor rat terrier</div>
+                </div>
+                <div class="div">
+                    <div class="discription">this exact word or phrase:</div>
+                    <div class="textbox"><input input type="text" name="as_epq"/></div>
+                    <div class="example">Put exact words in quotes:  "rat terrier"</div>
+
+                </div>
+                <div class="div">
+                    <div class="discription">any of these words:</div>
+                    <div class="textbox"><input input type="text" name="as_oq"/></div>
+                    <div class="example">Type OR between all the words you want:  miniature OR standard</div>
+
+                </div>
+                <div class="div">
+                    <div class="discription">none of these words:</div>
+                    <div class="textbox"><input input type="text" name="as_eq"/></div>
+                    <div class="example">
+                        Put a minus sign just before words you don't want:  -rodent, -"Jack Russell"
+                    </div>
                 </div>
             </div>
-            
-        </div>
-        <div class="bottomdiv">
-            <div class="buttondiv"> bottomdiv </div>
-        </div>
+        
+            <div class="bottomdiv">
+                <div class="buttondiv">
+                    <button type="submit" value="advancedsearch"> Advanced Search </button> 
+                </div>
+            </div>
+        </form>
     </body>
 </html>
