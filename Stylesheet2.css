@@ -2,8 +2,6 @@ body{
     
 }
 .maindiv {
-    outline-color: black;
-    outline: dashed;
     display: flex;
     flex-direction:column;
     padding: 20px;
@@ -11,13 +9,9 @@ body{
     margin-top: 200px;
 }
 .topdiv {
-    outline: dashed;
-    outline-color: green;
     padding: 20px;
 }
 .bottomdiv {
-    outline: dashed;
-    outline-color: blue;
     padding: 20px;
     display: flex;
     margin: 10px;
@@ -29,37 +23,30 @@ body{
     
 }
 .inst1 {
-    outline: dashed;
-    outline-color: red;
     padding: 5px;
     width: 150px;
     margin: 5px;
 }
 .div {
-    outline: dashed;
-    outline-color: brown;
     display: flex;
     justify-content: space-between;
     margin: 5px;
 }
 .discription {
-    outline: dashed;
-    outline-color: black;
     padding: 5px;
     width: 150px;
     margin: 5px;
 }
 .textbox {
-    outline-color: black;
-    outline: dashed;
     width: 200px;
     padding: 5px;
     margin: 5px;
 }
 .example {
-    outline-color: black;
-    outline: dashed;
     width: 200px;
     padding: 5px;
     margin: 5px;
+}
+input[type="text"]{
+    width: 500px;
 }
